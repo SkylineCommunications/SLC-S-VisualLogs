@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DMSScript options="272" xmlns="http://www.skyline.be/automation">
+	<Name>GQI_SLAutomation-Log</Name>
+	<Description></Description>
+	<Type>Automation</Type>
+	<Author>SKYLINE2\Matthijs</Author>
+	<CheckSets>FALSE</CheckSets>
+	<Folder>GQI</Folder>
+
+	<Protocols>
+	</Protocols>
+
+	<Memory>
+	</Memory>
+
+	<Parameters>
+	</Parameters>
+
+	<Script>
+		<Exe id="1" type="csharp">
+			<Value><![CDATA[[Project:SLAutomation-Log_1]]]></Value>
+			<!--<Param type="debug">true</Param>-->
+			<Message></Message>
+			<Param type="preCompile">true</Param>
+			<Param type="libraryName">GQI_SLAutomation-Log</Param>
+		</Exe>
+	</Script>
+</DMSScript>
